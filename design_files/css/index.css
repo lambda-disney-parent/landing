@@ -181,6 +181,11 @@ img {
   top: 0;
   height: 70px;
 }
+@media (max-width: 500px) {
+  .navigation {
+    width: 100%;
+  }
+}
 .navigation nav {
   font-size: 0.8125rem;
   font-weight: 500;
@@ -196,6 +201,14 @@ img {
   padding: 0 40px;
   position: fixed;
 }
+@media (max-width: 500px) {
+  .navigation nav {
+    font-size: 1rem;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+  }
+}
 .navigation nav a {
   text-decoration: none;
   color: #55667a;
@@ -205,6 +218,11 @@ h1 {
   margin: 20px auto;
   padding-left: 60px;
   color: #00b7d9;
+}
+@media (max-width: 500px) {
+  h1 {
+    display: none;
+  }
 }
 .wrapper {
   background: -webkit-gradient(linear, left top, right bottom, from(#00b7d9), to(#43d0da));
