@@ -131,6 +131,7 @@ table {
 }
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 html,
 body {
@@ -204,18 +205,6 @@ h1 {
   margin: 20px auto;
   padding-left: 60px;
   color: #00b7d9;
-}
-.foot {
-  margin: 10% auto;
-}
-.foot .footer {
-  width: 100%;
-}
-.foot .footer p {
-  text-align: center;
-  margin: 10% auto;
-  font-size: 1.6rem;
-  padding: 20px;
 }
 .wrapper {
   background: -webkit-gradient(linear, left top, right bottom, from(#00b7d9), to(#43d0da));
