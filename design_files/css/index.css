@@ -221,6 +221,13 @@ img {
     display: none;
   }
 }
+.navigation nav a.login {
+  background-color: #1e9df7;
+  color: white;
+  border-radius: 30px;
+  width: 100px;
+  text-align: center;
+}
 footer {
   font-weight: 700;
   text-align: center;
