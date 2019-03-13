@@ -1,0 +1,115 @@
+.wrapper5 {
+    background:white;
+    width: 100%;
+    @media @phone
+                        {
+                            
+                            // overflow-x: hidden;
+                        }
+    // height: 600px;
+    
+    .team-page{
+        // margin: 1% 0;
+        width: 100%;
+        // border: 1px solid red;
+        
+        .team-page-container
+        {
+            display: flex;
+            flex-direction: column;
+            // flex-flow: wrap-reverse
+            /* margin: 100px 0; */
+            padding: 50px 0;
+            @media @phone
+                        {
+                            width: 100%
+                            
+                        }
+
+            .team-left
+            {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                margin: 10px 0;
+                .top-left-text
+                {
+                    
+                    // width: 70%;
+                    h2{
+                        text-align: center;
+                        line-height: 1.2;
+                        font-weight: 700;
+                        font-size: 4rem;
+                        color:#55667a;
+                        // border: 1px solid red;
+                    }
+                }
+            
+                
+            }
+            .team-img
+                {    display: flex;
+                    // width: 100%
+                    // text-align: center;
+                    @media @phone
+                        {
+                            display: flex;
+                            flex-flow: column;
+                            overflow-x: hidden;
+                            // width: 50%;
+                        }
+                    .team-member
+                    {
+                        @media @phone
+                        {
+                            width: 90%;
+                            text-align: center;
+                        }
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        box-shadow: -1rem 0 3rem #000;
+                        margin: 25px;
+                        
+
+                        
+                        h6{
+                            font-size: 2rem;
+                        }
+                        p{
+                            font-size: 1.5rem;
+                        }
+                        img {
+                            height: 100px;
+                            border-radius: 250px;
+                            border: 3px solid @font-color;
+                        }
+                        .team-member-info
+                        {   
+                            // width: 20px;
+                            height: 200px;
+                            margin: 10px auto;
+                            .team-member-socials
+                            
+                            {
+                                
+                                // padding: 20px;
+                                a{
+                                    color: black;
+                                    padding: 0 5px;
+                                    &:hover
+                                    {
+                                        color: @font-color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+        }
+    }
+}
