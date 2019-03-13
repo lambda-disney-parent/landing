@@ -215,6 +215,9 @@ img {
   color: #55667a;
   font-size: 2rem;
 }
+.navigation nav a:hover {
+  color: #00b7d9;
+}
 .navigation nav h1 {
   color: #00b7d9;
 }
