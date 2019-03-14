@@ -74,7 +74,13 @@
                 color: @navFont;
                 font-size: 2rem;
                 // text-align: center;
-               
+               @media @phone
+               {
+                text-decoration: none;
+                color: #55667a;
+                // font-size: 5.825px;
+                padding: 10px 3px;
+               }
             }
             a:hover { 
                 color: @headFont;
