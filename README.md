@@ -1,8 +1,8 @@
-# landing
+# Disney Parent Landing Page [User-Interface]
 
-Landing Page for Disney Parent App, Includes a team page as well
+ by Alan Perez
 
-What was used to make this page
+## Tech Used
 - HTML
 - CSS
 - LESS
@@ -10,4 +10,5 @@ What was used to make this page
 
 
 
--https://cocky-swartz-604550.netlify.com/design_files/
+# Website
+https://cocky-swartz-604550.netlify.com/design_files/
